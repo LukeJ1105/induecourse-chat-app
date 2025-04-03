@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("./assets/Kneel.png");
+  background-size: cover;
+  color: white;
+}
+
+@theme {
+  --color-tier3: #461111;
+  --color-tier2: #3C3D37;
+  --color-tier1: #040303;
+  --color-tier4: #B3541E;
+}
+@plugin "daisyui";
